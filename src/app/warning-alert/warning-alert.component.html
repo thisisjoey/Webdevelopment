@@ -1,3 +1,5 @@
-<div class="alert alert-danger" role="alert">
+<div [class]="currentClass" role="alert">
+    <button class="btn btn-primary" (click)="initiateSuccess()">Success</button>
     Warning Alert!
+    <button class="btn btn-primary" (click)="initiateWarning()">Change Warning</button>
 </div>
