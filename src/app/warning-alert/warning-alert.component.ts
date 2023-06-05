@@ -10,10 +10,11 @@ export class WarningAlertComponent {
   warningClass = "alert alert-warning";
   currentClass = "alert alert-warning";
   initiateSuccess() {
-    console.log("here");
+    console.log("Sucess Initiated");
     this.currentClass = this.sucessClass;
   }
   initiateWarning() {
+    console.log("Warning Initiated");
     this.currentClass = this.warningClass;
   }
 }
