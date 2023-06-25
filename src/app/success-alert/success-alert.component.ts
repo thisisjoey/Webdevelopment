@@ -6,5 +6,7 @@ import { Component } from "@angular/core";
     styleUrls: ['./success-alert.component.css']
 })
 export class SuccessAlertComponent {
-
+    getColor() {
+        return Math.random() > 0.5 ? 'red' : 'yellow';
+    }
 }
